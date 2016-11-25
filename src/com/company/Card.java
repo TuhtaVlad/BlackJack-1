@@ -11,7 +11,8 @@ public class Card {
     }
 
     @Override
-    public String toString() {
-        return value + " of " + suit;
-    }
+    public String toString() { return value + " of " + suit;}
+
+
+    public int getScore() { return this.value.score;  }
 }
